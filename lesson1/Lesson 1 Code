@@ -1,0 +1,21 @@
+# Quiz: First Programming Quiz
+print 7 * 7 * 24 * 60
+
+# Quiz: Speed of Light
+print 299792458 * 100 * 1.0/1000000000 #Whoah, weird! Python truncates instead of rounding
+
+#Quiz: Variables
+speed_of_light = 299792458.0 #meters per second
+cycles_per_second = 2700000000 #2.7ghz
+print speed_of_light/cycles_per_second
+
+# Quiz: Capital Udacity
+s = 'audacity'
+print 'U'+s[2:]
+
+# Quiz: Extracting Links
+page = '''<div id="top_bin"> <div id="top_content" class="width960">
+   <div class="udacity float-left"> <a href="/">'''
+tag = '<a href='
+start_link = page.find(tag)
+print start_link
